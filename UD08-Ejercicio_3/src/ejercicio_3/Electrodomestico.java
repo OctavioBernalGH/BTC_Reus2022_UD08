@@ -9,11 +9,11 @@ package ejercicio_3;
 public class Electrodomestico {
 
 	public enum Color {
-		blanco, negro, rojo, azul, gris
+		blanco, negro, rojo, azul, gris, BLANCO, NEGRO, ROJO, AZUL, GRIS
 	};
 
 	public enum Consumo {
-		A, B, C, D, F
+		A, B, C, D, F, a, b, c, d, f
 	};
 
 	private Color mycolor;
